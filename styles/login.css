@@ -1,0 +1,64 @@
+@import url(http://fonts.googleapis.com/css?family=Exo:100,200,400);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:700,400,300);
+
+.body{
+    position: fixed; 
+    width: 100%;
+	top: 250px;
+	right: 270px;
+	width: 260px;
+	height: 180px;
+/*    background-color: aquamarine;*/
+}
+
+.header{
+	position: absolute;
+	bottom: 50px;
+	right: 500px;
+/*    background-color: blue;*/
+}
+
+.header div{
+	float: left;
+	color: #000;
+	font-family: 'Exo', sans-serif;
+	font-size: 100px;
+	font-weight: 200;
+}
+
+.container input[type=text]{
+	width: 250px;
+	height: 30px;
+	background: white;
+	border: 1px solid black;
+	border-radius: 2px;
+	color: #000;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 4px;
+}
+
+.container button[type=button]{
+	width: 260px;
+	height: 75px;
+	background: #fff;
+	border: 1px solid black;
+	cursor: pointer;
+	border-radius: 2px;
+	color: black;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 6px;
+	margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.image img {
+    position: fixed;
+    bottom: 40px;
+    left: 580px;
+    width: 250px;
+    height: 250px;
+}
