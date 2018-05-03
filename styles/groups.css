@@ -1,0 +1,80 @@
+@import url(http://fonts.googleapis.com/css?family=Exo:100,200,400);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:700,400,300);
+
+ul, html {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.list-groups {
+    display: inline-block;
+    width: 100%;
+    height: 100%; 
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+
+.left-part a {
+    display: inline-block;
+    width: 100%;
+    border-bottom: 1px solid black;
+    padding: 5px;
+    box-sizing: border-box;
+    text-decoration:none;
+}
+
+
+.left-part {
+    display:inline-block;
+    border: 1px solid black;
+    vertical-align: top;
+    box-sizing: border-box;
+    width: calc(100% - 404px);
+    height: 100%;
+}
+
+.groups {
+    border: 1px solid black;
+    width: 800;
+    height: 500;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+
+.right-part {
+    display:inline-block; 
+    vertical-align: top;
+    height: 100%;
+    width: 400px;
+    text-align: center;
+}
+
+.logo {
+    font-size: 75;
+    text-align: center;
+    font-weight: 300;
+    font-family: 'Exo', sans-serif;
+}   
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 161px;
+}
+
+.create-group {
+    float: right;
+
+}
