@@ -37,6 +37,21 @@
 	padding: 4px;
 }
 
+.container input[type=submit]{
+	width: 260px;
+	height: 75px;
+	background: #fff;
+	border: 1px solid black;
+	cursor: pointer;
+	border-radius: 2px;
+	color: black;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 6px;
+	margin-top: 10px;
+}
+
 .container button[type=button]{
 	width: 260px;
 	height: 75px;
